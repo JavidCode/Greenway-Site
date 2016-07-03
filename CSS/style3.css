@@ -1,0 +1,174 @@
+#clouds {
+    background-image: url("../pics/clouds1.jpg");
+    height: 360px;
+    z-index: 1;
+}
+
+
+#clouds,
+#tophdr {
+    top: 0;
+}
+
+#flash {
+    top: 160px;
+}
+
+#flash a,
+#navigation a {
+    color: #390;
+}
+
+#flash h1 {
+    font-size: 18pt;
+}
+
+#flash p,
+#footer a {
+    font-size: 8pt;
+}
+
+#footer {
+    background-image: url("../pics/whtstripe.gif");
+    top: 100%
+}
+
+#footer a {
+    color: #360
+}
+
+#footer a,
+#navigation a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer h3 {
+    color: #660;
+}
+
+#grassftr {
+
+    height: 75px;
+    top: 90%;
+    z-index: 4;
+    background-position: bottom;
+}
+
+#navigation {
+    top: 50px;
+}
+
+#navigation a:hover {
+    color: #6cf;
+}
+
+#tophdr h3 {
+    color: #fff;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url("../pics/newbgfd.jpg");
+}
+
+.phone
+{
+    text-align: right;
+    text-decoration: none;
+}
+
+
+blackbar1 {
+    top: 150px;
+}
+
+#blackbar1,
+#body,
+#clouds,
+#flash,
+#footer,
+#grassftr,
+#navigation,
+#tophdr {
+    left: 0;
+    position: absolute;
+    visibility: visible;
+    width: 100%;
+}
+#blackbar1,
+#body,
+#flash,
+#footer,
+#navigation,
+#tophdr {
+    height: auto;
+}
+
+#blackbar1,
+#flash,
+#navigation,
+#tophdr {
+    z-index: 2;
+}
+
+#body {
+    top: 560px;
+}
+
+#body a {
+    color: #060;
+}
+
+#body a,
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#body h1,
+#body h3,
+#body p,
+#flash h1,
+#flash h3,
+#flash p,
+#footer a,
+#footer h3,
+#navigation a,
+#tophdr h3 {
+    font-family: Arial;
+}
+
+#body h1,
+#footer h3 {
+    font-size: 12pt;
+}
+
+#body h3,
+#flash h3,
+#navigation a,
+#tophdr h3 {
+    font-size: 10pt;
+}
+
+#body p {
+    font-size: 9pt;
+}
+
+#body,
+#footer {
+    z-index: 3;
+}
+
+
+html, body {
+    height: 100%; width: 100%;
+    padding: 0; margin: 0;
+}
+
+body {
+  background-image: url("../pics/grassbtmhdr.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+}

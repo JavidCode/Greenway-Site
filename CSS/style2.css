@@ -1,0 +1,112 @@
+
+#Flash {
+     visibility: visible;
+     position: absolute;
+     z-index: 2;
+     top: 160px;
+     left: 0;
+     width: 100%;
+     height: auto;
+ }
+ #Flash a {
+     color: #390;
+ }
+ #Flash p {
+     font-size: 8pt;
+     font-family: Arial;
+ }
+ #Flash h3 {
+     font-size: 10pt;
+     font-family: Arial;
+ }
+ #Flash h1 {
+     font-size: 18pt;
+     font-family: Arial;
+ }
+ #Navigation {
+     visibility: visible;
+     position: absolute;
+     z-index: 2;
+     top: 50px;
+     left: 0;
+     width: 100%;
+     height: auto
+ }
+ #Navigation a {
+     color: #390;
+     font-size: 10pt;
+     font-family: Arial;
+     font-weight: bold;
+     text-decoration: none
+ }
+ #Navigation a:hover {
+     color: #6cf;
+ }
+ #Footer {
+
+     visibility: visible;
+     position: absolute;
+     z-index: 3;
+     top: 100%;
+     left: 0;
+     width: 100%;
+     height: auto;
+ }
+ #Footer h3 {
+     color: #660;
+     font-size: 12pt;
+     font-family: Arial;
+ }
+ #Footer a {
+     color: #360;
+     font-size: 8pt;
+     font-family: Arial;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ #Footer a:hover {
+     text-decoration: underline
+ }
+ #Tophdr {
+     visibility: visible;
+     position: absolute;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: auto;
+ }
+ #Tophdr h3 {
+     color: #fff;
+     font-size: 10pt;
+     font-family: Arial;
+ }
+ #Blackbar1 {
+     visibility: visible;
+     position: absolute;
+     z-index: 2;
+     top: 150px;
+     left: 0;
+     width: 100%;
+     height: auto;
+ }
+ #Clouds {
+     background-image: url("../pics/clouds1.jpg");
+     visibility: visible;
+     position: absolute;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 360px;
+ }
+ #Grassftr {
+     background-image: url("../pics/grassbtmhdr.png");
+     visibility: visible;
+     position: absolute;
+     z-index: 4;
+     top: 90%;
+     left: 0;
+     width: 100%;
+     height: 75px;
+ }
