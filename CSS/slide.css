@@ -1,0 +1,8 @@
+#rotator{width:310px; height:220px; position:relative; overflow:hidden;  position:relative;}
+#rotator .images{width:1000%; position:relative; z-index:1;}
+#rotator a.arrow{width:18px; height:41px; display:block; z-index:2; text-indent:-50000em; position:absolute; top:89px; background:#FFF;}
+#rotator a.arrow.left{left:0;}
+#rotator a.arrow.right{right:0;}
+#rotator .images .imageHolder{width:310px; float:left; height:220px; position:relative;}
+#rotator  .images .imageHolder span {width:290px; margin: 10px; color:#FFF;  font-size:18px; position:absolute; top:0; left:0; z-index:4;}
+#rotator .images .imageHolder img{width:310px;  height:220px; position:absolute; display:block; top:0; left:0; z-index:3;}

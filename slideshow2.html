@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href=""><script src=""></script><script></script><!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/stylework.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+	$('.fadein img:gt(0)').hide();
+	setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
+</head>
+
+<body>
+
+    <div class="fadein">
+  <img src="http://www.gogreenwaylawn.com/cmsimages/bigstock_Boys_And_Golden_Retriever_1685408.jpg">
+  <img src="http://www.gogreenwaylawn.com/cmsimages/bigstock_Summer_fun_sweet_little_girl__17485925.jpg">
+  <img src="http://www.gogreenwaylawn.com/cmsimages/bigstock_Idealistic_Middle-Class_Ameri_3806056.jpg">
+  <img src="http://www.gogreenwaylawn.com/cmsimages/bigstock_Residential_Two_Story_Brick_Ho_1656141.jpg">
+</div>
+   <!-- <div id="slideshow">
+   <div>
+     <img src="//farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+   </div>
+   <div>
+     <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+   </div>
+   <div>
+     Pretty cool eh? This slide is proof the content can be anything.
+   </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js">$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);</script>-->
+
+
+
+</body>
+</html>

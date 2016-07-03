@@ -38,6 +38,17 @@ body      { background-image: url("pics/newbgfd.jpg"); background-attachment: fi
 	<body bgcolor="#ffffff">
 		<div id="flash">
 			<div align="center">
+                <div id="slideshow">
+   <div>
+     <img src="//farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+   </div>
+   <div>
+     <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+   </div>
+   <div>
+     Pretty cool eh? This slide is proof the content can be anything.
+   </div>
+</div>
 				<table width="1000" border="0" cellspacing="0" cellpadding="0" bgcolor="white" background="pics/flashfad.jpg" cool="cool" gridx="16" gridy="16" height="443" showgridx="showgridx" showgridy="showgridy">
 					<tr height="17">
 						<td width="1" height="442" rowspan="3"><spacer type="block" width="1" height="442"/></td>
@@ -404,6 +415,20 @@ body      { background-image: url("pics/newbgfd.jpg"); background-attachment: fi
 		</div>
 		<div id="clouds"></div>
 		<p></p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js">
+
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+    </script>
+
 	</body>
 
 

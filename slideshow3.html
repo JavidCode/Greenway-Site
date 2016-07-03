@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+     <link rel="stylesheet" href="css/stylework.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+    var $imgs = $('img');
+var current = 0;
+animate($imgs[current]);
+function animate(element)
+{
+  $(element).animate(
+                     {
+                      opacity: '1',
+                      left: '+=100'
+                      },
+                      2000,
+                      function() {
+                                 $(element).animate(
+                                                    {
+                                                     opacity: '0',
+                                                     left: '+=100'
+                                                     },
+                                                     2000,
+                                  function(){
+                                             if (current < $imgs.length-1)
+                                               {
+                                                ++current;
+                                                animate($imgs[current]);
+                                                    }
+                                             }
+                                                     );
+                                  }
+                       );
+}
+    </script>
+</head>
+
+
+
+<body>
+
+<img src='http://jasoncareers.files.wordpress.com/2012/02/f787ec3b56c3bd76_mickey-mouse.jpg' />
+<img src='http://cdnvideo.dolimg.com/cdn_assets/62d2a14bc0bbadf17da90dbc1e534b9587982d63.jpg' />
+<img src='http://4.bp.blogspot.com/_X1BFSkLIH1c/TKqjgESeB6I/AAAAAAAACjo/zEU_hGNITsE/s1600/donald-duck1.jpg' />
+<img src='http://3.bp.blogspot.com/-7S8vGzPDL9s/TdfO3Ze2P5I/AAAAAAAAGVs/B5GOYozqbV0/s1600/goofy.jpg' />
+
+
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">
